@@ -70,7 +70,7 @@ function ontodoFunctionChange(checkboxId, labelId, todoId) {
 }
 
 
-function onDeleteToDo(todoList) {
+function onDeleteToDo(todoId) {
     let todoElement = document.getElementById(todoId);
     todoItemsContainer.removeChild(todoElement);
 
